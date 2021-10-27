@@ -55,6 +55,7 @@ header{
 .menu li ul{
     position: absolute;
     min-width: 150px;
+    display: none;
 }
 
 .menu li > ul li{
@@ -67,3 +68,6 @@ header{
     background: #e4e4e5;
 }
 
+.menu li:hover > ul {
+    display: block;
+}
